@@ -1,0 +1,19 @@
+.Face{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+
+}
+
+.Face .Cont{
+    border-radius: 15px; 
+    width: 80%;
+    margin-left: 10%;
+    border: 2px white solid;
+    background:  rgb(78, 78, 78) ;
+    color: white;
+    text-shadow: 0 0 20pt;
+}
+ 
+ 
+ 
+  

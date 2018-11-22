@@ -1,0 +1,36 @@
+
+.Container{
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+       font-size: 30px;
+       
+}
+
+.NeCon{
+    color: rgb(0, 0, 0);
+    font-family:  sans-serif;
+    font-size: 20px;  
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: rgb(123,123,123);
+    margin-left: 85px;
+    border-radius: inherit;
+    box-shadow: 11px 7px black;
+    text-shadow: 0 0 10px;
+    margin-top: 50px;
+    border: 2px rgb(255, 255, 255) solid;
+
+}
+
+.ClickBox{
+    
+    text-decoration: unset;
+    color: white;
+    background-color: #4f4f4f;
+    padding: 4px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 10px;
+
+}
+

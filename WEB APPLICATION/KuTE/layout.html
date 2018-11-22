@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% if name  %}
+<title> KurdActivite-{{name}} </title>
+{% else %}
+<title> KurdActivite </title>
+{% endif %}
+<link rel="stylesheet" href="../KuST/Style.css">
+</head>
+<body>
+    <header>
+      <div class="hedo">
+          <nav>
+              <ul>
+                  <li><a href="/Home">Home</a></li>
+                  <li><a href="/Contact">contact</a></li>
+                  <li><a href="/About">about</a></li>
+                  <li><p class="logo"> ^..KurdActivite</p></li>
+              </ul>
+            </nav>
+      </div>  
+    </header>
+    
+
+<div class="bodo">
+    {% block content %} 
+    {% endblock content %}
+</div>
+
+
+</body>
+</html>
